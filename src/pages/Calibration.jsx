@@ -29,7 +29,11 @@ import {
 } from 'lucide-react';
 import { toast } from 'sonner';
 
+<<<<<<< HEAD
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || 'https://assest-backend-z6uq.onrender.com';
+=======
+const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || 'http://localhost:8000';
+>>>>>>> 19e96b05e597b137c0b0c12445804d6a9c9bf51f
 const API = `${BACKEND_URL}/api`;
 const WS_URL = BACKEND_URL.replace(/^http/, 'ws');
 const STORAGE_KEY = 'calibrationRecords_v4';
@@ -1056,4 +1060,8 @@ const Calibration = () => {
   );
 };
 
+<<<<<<< HEAD
 export default Calibration;
+=======
+export default Calibration;
+>>>>>>> 19e96b05e597b137c0b0c12445804d6a9c9bf51f

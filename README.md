@@ -9,9 +9,13 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
+<<<<<<< HEAD
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser during local development.
 
 For deployed environments such as Vercel, set `REACT_APP_BACKEND_URL=https://assest-backend-z6uq.onrender.com`.
+=======
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+>>>>>>> 19e96b05e597b137c0b0c12445804d6a9c9bf51f
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.

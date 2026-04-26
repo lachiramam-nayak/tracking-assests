@@ -6,7 +6,11 @@ import { Slider } from './ui/slider';
 import { Clock, Play, Pause, RotateCcw } from 'lucide-react';
 import { toast } from 'sonner';
 
+<<<<<<< HEAD
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || 'https://assest-backend-z6uq.onrender.com';
+=======
+const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || 'http://localhost:8000';
+>>>>>>> 19e96b05e597b137c0b0c12445804d6a9c9bf51f
 const API = `${BACKEND_URL}/api`;
 
 const HistoricalTrace = ({ selectedTag }) => {
@@ -302,4 +306,8 @@ const HistoricalTrace = ({ selectedTag }) => {
   );
 };
 
+<<<<<<< HEAD
 export default HistoricalTrace;
+=======
+export default HistoricalTrace;
+>>>>>>> 19e96b05e597b137c0b0c12445804d6a9c9bf51f
